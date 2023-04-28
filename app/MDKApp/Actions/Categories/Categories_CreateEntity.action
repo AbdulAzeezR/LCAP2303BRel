@@ -1,0 +1,18 @@
+{
+    "CreateLinks": [],
+    "OnFailure": "/MDKApp/Actions/CreateEntityFailureMessage.action",
+    "OnSuccess": "/MDKApp/Actions/CreateEntitySuccessMessage.action",
+    "Properties": {
+        "CategoryID": "#Control:CategoryID/#Value",
+        "CategoryName": "#Control:CategoryName/#Value",
+        "Description": "#Control:Description/#Value"
+    },
+    "Target": {
+        "EntitySet": "Categories",
+        "Service": "/MDKApp/Services/service1.service"
+    },
+    "ActionResult": {
+        "_Name": "create"
+    },
+    "_Type": "Action.Type.ODataService.CreateEntity"
+}

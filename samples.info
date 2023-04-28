@@ -1,0 +1,8 @@
+[
+	{
+		"entity": "Categories",
+		"namespace": "AzLCAP2303BRel",
+		"file": "/home/user/projects/AzLCAP2303BRel/db/data/AzLCAP2303BRel-Categories.csv",
+		"isFixed": false
+	}
+]

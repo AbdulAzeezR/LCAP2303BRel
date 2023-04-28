@@ -1,7 +1,15 @@
 using { AzLCAP2303BRel as my } from '../db/schema';
 
-@path: 'service/AzLCAP2303BRel'
-@requires: 'authenticated-user'
-service AzLCAP2303BRelService {
+using AzLCAP2303BRel from '../db/schema';
 
+@path : 'service/AzLCAP2303BRel'
+service AzLCAP2303BRelService
+{
+    entity Categories as
+        projection on my.Categories;
 }
+
+annotate AzLCAP2303BRelService with @requires :
+[
+    'authenticated-user'
+];

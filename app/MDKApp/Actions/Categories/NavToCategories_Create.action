@@ -1,0 +1,6 @@
+{
+    "ModalPageFullscreen": false,
+    "ModalPage": true,
+    "PageToOpen": "/MDKApp/Pages/Categories/Categories_Create.page",
+    "_Type": "Action.Type.Navigation"
+}

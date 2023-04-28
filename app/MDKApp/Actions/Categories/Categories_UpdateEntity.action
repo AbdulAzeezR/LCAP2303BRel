@@ -1,0 +1,19 @@
+{
+    "_Type": "Action.Type.ODataService.UpdateEntity",
+    "Target": {
+        "EntitySet": "Categories",
+        "Service": "/MDKApp/Services/service1.service",
+        "ReadLink": "{@odata.readLink}"
+    },
+    "Properties": {
+        "CategoryID": "#Control:CategoryID/#Value",
+        "CategoryName": "#Control:CategoryName/#Value",
+        "Description": "#Control:Description/#Value"
+    },
+    "UpdateLinks": [],
+    "ActionResult": {
+        "_Name": "update"
+    },
+    "OnSuccess": "/MDKApp/Actions/UpdateEntitySuccessMessage.action",
+    "OnFailure": "/MDKApp/Actions/UpdateEntityFailureMessage.action"
+}
